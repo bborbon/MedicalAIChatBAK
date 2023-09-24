@@ -1,0 +1,16 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <h2>MedicalAIChat</h2>
+    <p>To start a new chat, use the form below</p>
+    <form method="post" action="" >
+    <label for="client-text">Enter your text below:</label>
+    <input id="client-text" type="text"/>
+    <button id="submit" name="submit" type="button">Submit</button>
+    </form>
+</div>
